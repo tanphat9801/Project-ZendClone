@@ -1,0 +1,37 @@
+#learn{
+
+    padding-top: 4rem;
+
+    .learn-cont{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+        gap: 1.5rem;
+
+        .learn-box{
+            border-radius: 1rem;
+            padding: 4rem 0;
+            // box-shadow: $box-shadow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            &:hover{
+                box-shadow: $box-shadow;
+                transition: .3s all ;
+            }
+
+            .learn-content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                h2{
+                    font-size: 2rem;
+                    padding-bottom: 1.5rem;
+                }
+            }
+        }
+    }
+
+}

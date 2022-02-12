@@ -1,0 +1,31 @@
+#header{
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    
+    .header-element{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem;
+        align-items: center;
+
+        .logo{
+            font-size: 2.5rem;
+            color: $header-scroll;
+            font-weight: 700;
+        }
+
+        .header-btn{
+            .btn1{
+                font-size: 1.5rem;
+                color: $header-scroll;
+                font-weight: 600;
+                padding: .5rem;
+            }
+        }
+
+
+    }
+
+}

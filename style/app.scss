@@ -1,0 +1,108 @@
+@import "reset";
+@import "global";
+@import "variable";
+@import "header";
+@import "slider";
+@import "learn";
+@import "student";
+@import "course";
+@import "footer";
+@import "scroll";
+
+
+@media(max-width:1400px){
+
+
+    #course{
+
+        .container-course{
+
+            #video{
+                iframe{
+                    width: 700px;
+                    height: 450px;
+                }
+            }
+
+            #main{
+                .item{
+                    padding: 1rem;
+
+                    .thumb{
+                        width: 200px;
+                        height: 120px;
+                    }
+
+                    .details{
+                        h4{
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+}
+
+
+@media(max-width:1250px){
+
+    #course{
+
+        .container-course{
+
+            #video{
+                iframe{
+                    width: 600px;
+                    height: 350px;
+                }
+            }
+        
+            #main{
+                .item{
+                    padding: .5rem;
+                }
+            }
+
+        }
+
+    }
+
+}
+
+
+@media(max-width:1150px){
+
+    #course{
+        .container-course{
+
+            #video{
+                iframe{
+                    width: 500px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+
+
+
+}
+
+@media(max-width:1000px){
+    section{
+        display: none;
+    }
+
+    #header{
+        display: none;
+    }
+
+    .hide-text{
+        display: block;
+    }
+}

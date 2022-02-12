@@ -1,0 +1,68 @@
+#student{
+    padding-top: 10rem;
+
+    .student-slide{
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .swiper-wrapper{
+            width: 100%;
+            height: 100%;
+
+            .swiper-slide{
+                width: 8rem;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                border: .1rem solid rgb(233, 222, 222);
+                &:hover{
+                    border: .1rem solid rgb(231, 106, 106);
+                }
+                
+
+                .slide-img{
+                    width: 20rem;
+                    height: 20rem;
+                    margin: 0 auto;
+                    margin-top: 4rem;
+                    border-radius: 50%;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .std-content{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    padding-top: 6rem;
+
+                    .std-line{
+                        width: 4rem;
+                        height: .2rem;
+                        background-color: rgb(255, 124, 146);
+                    }
+
+                    h2{
+                        font-size: 2rem;
+                        padding-bottom: .5rem;
+                        padding-top: .5rem;
+                    }
+
+                    h3{
+                        font-size: 1.5rem;
+                    }
+
+                }
+            }
+        }
+    }
+
+}
