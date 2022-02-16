@@ -157,6 +157,10 @@ mark {
           align-items: center;
 }
 
+#header .header-element .select h1 {
+  font-size: 1.5rem;
+}
+
 #header .header-element .select select {
   border: none;
   outline: none;
@@ -192,7 +196,7 @@ mark {
 }
 
 #slider {
-  padding-top: 10rem;
+  padding-top: 15rem;
 }
 
 #slider .swiper-wrapper {
@@ -445,6 +449,10 @@ mark {
           justify-content: space-between;
 }
 
+#course .container-course #video iframe {
+  position: fixed;
+}
+
 #course .container-course #main {
   width: 100%;
   max-width: 500px;
@@ -620,14 +628,113 @@ mark {
     height: 350px;
   }
   #course .container-course #main .item {
-    padding: .5rem;
+    padding: 0.5rem;
   }
 }
 
 @media (max-width: 1150px) {
   #course .container-course #video iframe {
+    width: 600px;
+    height: 350px;
+  }
+  #course .container-course #main {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 1050px) {
+  #course .container-course #video iframe {
     width: 500px;
     height: 300px;
+  }
+}
+
+@media (max-width: 945px) {
+  #course .container-course {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #course .container-course #video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #course .container-course #video iframe {
+    width: 600px;
+    height: 350px;
+  }
+  #course .container-course #main {
+    padding-top: 40rem;
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 635px) {
+  #header .select h1 {
+    display: none;
+  }
+  #course .container-course {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #course .container-course #video {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #course .container-course #video iframe {
+    width: 450px;
+    height: 250px;
+  }
+  #course .container-course #main {
+    padding-top: 30rem;
+    width: 100%;
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 785px) {
+  #header .header-element .logo .logo-text {
+    display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  #header .header-element .search-box #input {
+    font-size: 1rem;
+    padding: 0.5rem 4rem 0.5rem 0.5rem;
+  }
+  #header .header-element .search-box #search {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=app.css.map */
