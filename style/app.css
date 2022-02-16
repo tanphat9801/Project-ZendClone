@@ -731,7 +731,7 @@ mark {
 @media (max-width: 620px) {
   #header .header-element .search-box #input {
     font-size: 1rem;
-    padding: 0.5rem 4rem 0.5rem 0.5rem;
+    padding: 0.5rem 2rem 0.5rem 0.5rem;
   }
   #header .header-element .search-box #search {
     font-size: 1rem;
