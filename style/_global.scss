@@ -43,6 +43,7 @@ html{
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
+    padding-bottom: 4rem;
 }
 
 
@@ -52,4 +53,8 @@ html{
     font-size: 2.5rem;
     font-weight: 500;
     padding-top: 15rem;
+}
+
+mark{
+    background-color: yellow;
 }

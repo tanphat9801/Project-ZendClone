@@ -8,6 +8,8 @@
 @import "course";
 @import "footer";
 @import "scroll";
+@import "ask";
+@import "feel";
 
 
 @media(max-width:1400px){
@@ -93,16 +95,3 @@
 
 }
 
-@media(max-width:1000px){
-    section{
-        display: none;
-    }
-
-    #header{
-        display: none;
-    }
-
-    .hide-text{
-        display: block;
-    }
-}
